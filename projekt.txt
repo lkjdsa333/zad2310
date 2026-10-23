@@ -7,7 +7,7 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:orientation="vertical">
-<!-- Tytuł główny -->
+
 <TextView
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
@@ -16,13 +16,13 @@
            android:text="Losowanie kostek"
            android:textSize="28sp"
            android:textStyle="bold" />
-<!-- Etykieta pola liczby kostek -->
+
 <TextView
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:textSize="18sp"
            android:text="Liczba kostek:" />
-<!-- Pole tekstowe na liczbę kostek -->
+
 <EditText
            android:id="@+id/editTextLiczbaKostek"
            android:layout_width="match_parent"
@@ -30,7 +30,7 @@
            android:hint="Podaj liczbę kostek"
            android:inputType="number"
            android:text="5" />
-<!-- Przycisk Losuj -->
+
 <Button
            android:id="@+id/buttonLosuj"
            android:layout_width="match_parent"
@@ -39,7 +39,7 @@
            android:text="LOSUJ"
            android:textSize="20sp"
            android:textStyle="bold" />
-<!-- Nagłówek: Wylosowane kostki -->
+
 <TextView
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
            android:text="Wylosowane kostki:"
            android:textSize="20sp"
            android:textStyle="bold" />
-<!-- Siatka (GridLayout) na wylosowane kostki -->
+
 <GridLayout
            android:id="@+id/gridKostki"
            android:layout_width="match_parent"
@@ -57,7 +57,7 @@
            android:columnCount="1"
            android:useDefaultMargins="true"
            android:gravity="center" />
-<!-- Nagłówek: Wyniki -->
+
 <TextView
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
            android:text="Wyniki:"
            android:textSize="20sp"
            android:textStyle="bold" />
-<!-- TextView na wyniki losowania -->
+
 <TextView
            android:id="@+id/textViewWyniki"
            android:layout_width="match_parent"
@@ -75,14 +75,14 @@
            android:padding="10dp"
            android:text="Wyniki pojawią się tutaj"
            android:textSize="20sp" />
-<!-- Przycisk: Sortuj rosnąco -->
+
 <Button
            android:id="@+id/buttonRosnaco"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:layout_marginTop="10dp"
            android:text="SORTUJ ROSNĄCO" />
-<!-- Przycisk: Sortuj malejąco -->
+
 <Button
            android:id="@+id/buttonMalejaco"
            android:layout_width="match_parent"
